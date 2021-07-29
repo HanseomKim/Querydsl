@@ -1,7 +1,5 @@
 package com.spring.querydsl;
 
-import com.querydsl.core.BooleanBuilder;
-import com.querydsl.core.types.dsl.BooleanExpression;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import com.spring.querydsl.entity.Member;
 import com.spring.querydsl.entity.Team;
@@ -13,7 +11,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import java.util.List;
 
 import static com.spring.querydsl.entity.QMember.member;
 
